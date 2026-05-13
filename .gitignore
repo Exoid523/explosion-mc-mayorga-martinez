@@ -1,0 +1,21 @@
+# Entornos virtuales
+.venv/
+.venv*/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Pytest
+.pytest_cache/
+
+# Archivos generados
+resultados.csv
+*.png
+
+# Sistema / editor
+.DS_Store
+.vscode/
