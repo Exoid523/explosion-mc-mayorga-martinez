@@ -14,10 +14,11 @@ def seleccionar_fabrica(tipo: str):
     fabricas = {
         "ligero": FabricaLigero,
         "pesado": FabricaPesado,
-        "con_arrastre": FabricaConArrastre
+        "arrastre": FabricaConArrastre,
     }
+
     if tipo not in fabricas:
-        raise ValueError(f"Tipo de fábrica no reconocido: {tipo}")
+        raise ValueError(f"Tipo de fabrica no reconocido: {tipo}")
 
     return fabricas[tipo]()
 
