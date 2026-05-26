@@ -16,7 +16,7 @@ distribucion:
   angulo:
     tipo: uniforme
     media: 90.0 
-    simga: 20.0
+    sigma: 20.0
     kappa: 6.0
   velocidad:
     tipo: uniforme
